@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safe Steps Training Services | Contact Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="images/Logo.png" type="image/png" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-main-bar">
+      <div class="container header-main">
+        <a href="index.html" class="logo-link">
+          <img src="images/Logo.png" alt="Safe Steps Training Services Logo" />
+          <div class="logo-text">
+          <span class="header-tagline">Strengthening Systems &middot; Shaping Futures</span>
+          </div>
+        </a>
+
+        <nav class="nav-desktop">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="nav-item-dropdown">
+          <a href="services.html">Our Services <span class="chevron">&#9662;</span></a>
+          <div class="dropdown-panel">
+            <a href="services.html">All Services</a>
+            <a href="child-safeguarding-training.html">Child Safeguarding Advocacy &amp; Training</a>
+            <a href="parent-coaching-support.html">Parent Coaching &amp; Support</a>
+            <a href="nurture-orbit.html">The Nurture Orbit Collection</a>
+            <a href="library.html" class="dropdown-divider">Resource Hub</a>
+          </div>
+        </div>
+        <a href="blog.html">Blog</a>
+        <a href="gallery.html">Gallery &amp; Impact</a>
+        <div class="nav-item-dropdown">
+          <a href="shop.html">Shop <span class="chevron">&#9662;</span></a>
+          <div class="dropdown-panel">
+            <a href="shop.html">All Products</a>
+            <a href="games-books-puzzles.html">Games, Books &amp; Puzzles</a>
+          </div>
+        </div>
+        <a href="portal.html">Member Portal</a>
+        <a href="contact.html" class="active">Contact</a>
+        <button class="nav-searchbar" onclick="openSearch()" aria-label="Search the site"><i class="fa-solid fa-magnifying-glass"></i><span>Search the site...</span></button>
+        <a href="shop.html" class="nav-search-btn nav-cart-btn" aria-label="View Shop / Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+        </nav>
+
+        <button class="menu-btn" onclick="toggleHamburger()" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="nav-mobile" id="navMobile">
+        <button class="nav-mobile-search-btn" onclick="openSearch()"><i class="fa-solid fa-magnifying-glass"></i> Search the site</button>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Our Services</a>
+        <a href="child-safeguarding-training.html" class="sub-link">Child Safeguarding Advocacy &amp; Training</a>
+        <a href="parent-coaching-support.html" class="sub-link">Parent Coaching &amp; Support</a>
+        <a href="nurture-orbit.html" class="sub-link">The Nurture Orbit Collection</a>
+        <a href="library.html" class="sub-link">Resource Hub</a>
+        <a href="blog.html">Blog</a>
+        <a href="gallery.html">Gallery &amp; Impact</a>
+        <a href="shop.html">Shop</a>
+        <a href="games-books-puzzles.html" class="sub-link">Games, Books &amp; Puzzles</a>
+        <a href="portal.html">Member Portal</a>
+        <a href="contact.html" class="active">Contact</a>
+    </div>
+  </header>
+
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-box">
+      <div class="search-box-input-row">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="siteSearchInput" placeholder="Search the site... (e.g. parent coaching, blog, shop)" autocomplete="off" />
+        <button class="search-box-close" onclick="closeSearch()" aria-label="Close search">&times;</button>
+      </div>
+      <div class="search-results" id="siteSearchResults"></div>
+    </div>
+  </div>
+
+  <div class="breadcrumb-bar d-none d-lg-block">
+    <div class="container">
+      <a href="index.html">Home</a>
+      <span class="crumb-sep">/</span>
+      <span class="crumb-current">Contact</span>
+    </div>
+  </div>
+
+
+  <main class="container">
+    <section class="hero-section">
+      <span class="badge badge-gold">Contact Us</span>
+      <h1>Get in Touch</h1>
+      <p>Reach out for consultations, policy reviews, workshop bookings, or any inquiries.</p>
+    </section>
+
+    <div class="contact-container">
+      <section class="card">
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="johndoe@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+256 700 000 000" />
+          </div>
+          <div class="form-group">
+            <label for="organization">Organization Name</label>
+            <input type="text" id="organization" name="organization" placeholder="Your Organization Ltd." />
+          </div>
+          <div class="form-group">
+            <label for="message">Your Message *</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-block">Send Message</button>
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </section>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand">
+        <h4>Safe Steps Training Services</h4>
+        <p>Building safer organizations, stronger families, and ethical leaders across Uganda.</p>
+        <p class="footer-follow-label">Follow Us</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/safestepstrainingservices" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@safestepstrainings" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Our Services</a>
+        <a href="games-books-puzzles.html">Games, Books &amp; Puzzles</a>
+        <a href="blog.html">Blog</a>
+        <a href="gallery.html">Gallery &amp; Impact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a href="library.html">Resource Hub</a>
+        <a href="shop.html">Shop</a>
+        <a href="portal.html">Member Portal</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p>P O Box 102525, Kampala, Uganda</p>
+        <p>+256 784 052 908<br>+256 759 464 634</p>
+        <p>Email: hildgracenalwanga@gmail.com</p>
+        <p>Opening Hours: Saturday, 9:00 am &ndash; 3:00 pm</p>
+        <p style="margin-top:10px;">MTN MoMo: 0784052908<br>Airtel Money: 0759464634</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <div class="copyright">&copy; 2026 Safe Steps Training Services. All rights reserved.</div>
+      <div class="footer-legal">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/forms.js"></script>
+  <script>
+    wireSafeStepsForm(document.getElementById('contactForm'), 'contact', {
+      extraFields: { topic: 'General Inquiry' },
+      successMessage: 'Thank you for reaching out! We will get back to you shortly.'
+    });
+  </script>
+</body>
+</html>

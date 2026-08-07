@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safe Steps Training Services</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" href="images/Logo.png" type="image/png" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-main-bar">
+      <div class="container header-main">
+        <a href="index.html" class="logo-link">
+          <img src="images/Logo.png" alt="Safe Steps Training Services Logo" />
+          <div class="logo-text">
+            <span class="header-tagline">Strengthening Systems &middot; Shaping Futures</span>
+          </div>
+        </a>
+
+        <nav class="nav-desktop">
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <div class="nav-item-dropdown">
+          <a href="services.html">Our Services <span class="chevron">&#9662;</span></a>
+          <div class="dropdown-panel">
+            <a href="services.html">All Services</a>
+            <a href="child-safeguarding-training.html">Child Safeguarding Advocacy &amp; Training</a>
+            <a href="parent-coaching-support.html">Parent Coaching &amp; Support</a>
+            <a href="nurture-orbit.html">The Nurture Orbit Collection</a>
+            <a href="library.html" class="dropdown-divider">Resource Hub</a>
+          </div>
+        </div>
+        <a href="blog.html">Blog</a>
+        <a href="gallery.html">Gallery &amp; Impact</a>
+        <div class="nav-item-dropdown">
+          <a href="shop.html">Shop <span class="chevron">&#9662;</span></a>
+          <div class="dropdown-panel">
+            <a href="shop.html">All Products</a>
+            <a href="games-books-puzzles.html">Games, Books &amp; Puzzles</a>
+          </div>
+        </div>
+        <a href="portal.html">Member Portal</a>
+        <a href="contact.html">Contact</a>
+        <button class="nav-searchbar" onclick="openSearch()" aria-label="Search the site"><i class="fa-solid fa-magnifying-glass"></i><span>Search the site...</span></button>
+        <a href="shop.html" class="nav-search-btn nav-cart-btn" aria-label="View Shop / Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+        </nav>
+
+        <button class="menu-btn" onclick="toggleHamburger()" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="nav-mobile" id="navMobile">
+        <button class="nav-mobile-search-btn" onclick="openSearch()"><i class="fa-solid fa-magnifying-glass"></i> Search the site</button>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Our Services</a>
+        <a href="child-safeguarding-training.html" class="sub-link">Child Safeguarding Advocacy &amp; Training</a>
+        <a href="parent-coaching-support.html" class="sub-link">Parent Coaching &amp; Support</a>
+        <a href="nurture-orbit.html" class="sub-link">The Nurture Orbit Collection</a>
+        <a href="library.html" class="sub-link">Resource Hub</a>
+        <a href="blog.html">Blog</a>
+        <a href="gallery.html">Gallery &amp; Impact</a>
+        <a href="shop.html">Shop</a>
+        <a href="games-books-puzzles.html" class="sub-link">Games, Books &amp; Puzzles</a>
+        <a href="portal.html">Member Portal</a>
+        <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-box">
+      <div class="search-box-input-row">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="siteSearchInput" placeholder="Search the site... (e.g. parent coaching, blog, shop)" autocomplete="off" />
+        <button class="search-box-close" onclick="closeSearch()" aria-label="Close search">&times;</button>
+      </div>
+      <div class="search-results" id="siteSearchResults"></div>
+    </div>
+  </div>
+
+  <main class="container">
+
+    <section class="hero-section has-bg">
+      <div class="hero-content">
+        <span class="badge badge-gold">Welcome</span>
+        <p><strong>Safe Steps Training Services</strong> is a consultancy specializing in child safeguarding, leadership development, parenting and family development, governance, and organizational capacity strengthening. 
+          <br>We partner with organizations, schools, faith based institutions, businesses, and families to build safe, ethical, and high performing cultures.</p>
+        <div class="btn-group">
+          <a href="services.html" class="btn btn-gold">Browse Our Services</a>
+          <a href="about.html" class="btn btn-outline">Our Story</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="card">
+        <span class="badge badge-gold">Our Foundation</span>
+        <h2 class="section-title">Rooted in Care, Grounded in Experience</h2>
+        <p>Rooted in values shaped by years of experience in social work, child safeguarding, and community engagement, we provide tailored training programs, interactive workshops, policy development, and mentorship support. While our values are inspired by biblical principles, Safe Steps is a non-denominational consultancy that warmly welcomes families and institutions from all faiths and backgrounds.</p>
+        <blockquote>"Dear children, let us not love with words or speech but with actions and in truth." – 1 John 3:18 (NIV)</blockquote>
+        <a href="about.html" class="blog-link">Read our full story &rarr;</a>
+      </div>
+    </section>
+
+    <section style="margin-top:80px;">
+      <span class="badge badge-gold" style="display:table;margin:0 auto 12px;">Our Programs</span>
+      <h2 class="section-title text-center">Our Three Core Programs</h2>
+      <p class="section-subtitle text-center">Empowering families and institutions through comprehensive training and support.</p>
+
+      <div class="card-grid">
+        <div class="card">
+          <span class="badge badge-primary">Coming Soon</span>
+          <h3>Child Safeguarding Advocacy and Training</h3>
+          <p><em>Safeguarding Childhood, One Voice at a Time.</em> Comprehensive training for institutions and caregivers to recognize, prevent, and respond to child safety concerns.</p>
+          <a href="child-safeguarding-training.html" class="btn btn-block">Learn More</a>
+        </div>
+
+        <div class="card">
+          <span class="badge badge-gold">Available Now</span>
+          <h3>The Nurture Orbit Collection</h3>
+          <p><em>Growing Together, Guided with Purpose.</em> A long-term vision for generational transformation through leadership, mentoring, and youth development.</p>
+          <a href="nurture-orbit.html" class="btn btn-block">Learn More</a>
+        </div>
+
+        <div class="card">
+          <span class="badge badge-gold">Available Now</span>
+          <h3>Parent Coaching and Support</h3>
+          <p><em>Empowering Families for Everyday Challenges.</em> Practical coaching to support your child's health, well-being, and emotional development.</p>
+          <a href="parent-coaching-support.html" class="btn btn-block">Learn More</a>
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top:10px;">
+        <a href="shop.html" class="blog-link">Looking for Games, Books &amp; Puzzles instead? Visit our Shop &rarr;</a>
+      </div>
+    </section>
+
+    <section style="margin-top:80px;">
+      <span class="badge badge-gold" style="display:table;margin:0 auto 12px;">News &amp; Research</span>
+      <h2 class="section-title text-center">News &amp; Research</h2>
+      <p class="section-subtitle text-center">Keeping families and institutions informed on child protection developments in Uganda and beyond.</p>
+
+      <div class="card-grid">
+        <article class="card">
+          <span class="badge badge-primary">National News</span>
+          <h3>Uganda Launches New Five-Year Plan to Combat Human Trafficking</h3>
+          <p>The Government of Uganda has stepped up its response to human trafficking with the launch of a new National Action Plan running through 2031, setting out a coordinated roadmap for prevention, victim protection, prosecution, and partnership across government agencies. Officials leading the rollout also flagged a troubling trend: traffickers are increasingly turning to digital platforms to identify, groom, and exploit vulnerable people, with children continuing to make up more than half of all reported cases nationally. The new plan places a stronger emphasis on public awareness and prevention as a result.</p>
+          <a href="https://mediacentre.go.ug/press-room/uganda-launches-new-action-plan-to-combat-human-trafficking-as-child-exploitatio-a6ev" target="_blank" class="blog-link">Read the official statement &rarr;</a>
+        </article>
+
+        <article class="card">
+          <span class="badge badge-gold">International &amp; UN</span>
+          <h3>UNICEF Uganda Launches New Country Programme (2026&ndash;2030) for Child Protection</h3>
+          <p>UNICEF Uganda has opened a new chapter for the country's children with the launch of its Country Programme 2026&ndash;2030, approved by the UNICEF Executive Board. The programme sets out a stronger, more coordinated push toward a Uganda where every child can grow up healthy, educated, and protected, building on recent gains such as the training of Para-Social Workers within community Child Protection Committees.</p>
+          <a href="https://www.unicef.org/uganda/topics/child-protection" target="_blank" class="blog-link">Read more from UNICEF Uganda &rarr;</a>
+        </article>
+
+        <article class="card">
+          <span class="badge badge-primary">National News</span>
+          <h3>Kampala Childcare Incident Renews Calls for Stronger Early Childhood Safety Standards</h3>
+          <p>A distressing incident at an early childhood development centre in the Kampala area in April 2026, confirmed by the Uganda Police Force, has prompted parents, caregivers, and policymakers across East Africa to take a fresh look at safety and safeguarding standards in pre-primary and early childhood settings. The case underscores why consistent safeguarding policies, staff vetting, and emergency protocols matter in every institution that cares for young children.</p>
+          <a href="https://panafricanvisions.com/2026/04/uganda-daycare-tragedy-sparks-urgent-calls-for-child-safety-reforms-across-east-africa/" target="_blank" class="blog-link">Read the full report &rarr;</a>
+        </article>
+      </div>
+
+      <div class="card" style="margin-top:30px;">
+        <h3 style="color:var(--primary); margin-bottom:6px;">Useful Links &amp; Reporting Partners</h3>
+        <p class="text-muted" style="margin-bottom:20px;">Trusted government and international resources for child protection, reporting, and support.</p>
+        <div class="team-grid" style="margin:0;">
+          <div>
+            <p style="font-weight:700; color:var(--primary); text-transform:uppercase; font-size:0.8rem; letter-spacing:0.5px; margin-bottom:10px;">Uganda Government</p>
+            <a href="https://mglsd.go.ug/" target="_blank" class="blog-link" style="display:block; margin-bottom:8px;">Ministry of Gender, Labour and Social Development &rarr;</a>
+            <a href="https://health.go.ug/" target="_blank" class="blog-link" style="display:block; margin-bottom:8px;">Ministry of Health – Uganda &rarr;</a>
+            <a href="https://upf.go.ug/" target="_blank" class="blog-link" style="display:block;">Uganda Police Force &rarr;</a>
+          </div>
+          <div>
+            <p style="font-weight:700; color:var(--primary); text-transform:uppercase; font-size:0.8rem; letter-spacing:0.5px; margin-bottom:10px;">International &amp; UN Child Protection</p>
+            <a href="https://www.unicef.org/uganda/" target="_blank" class="blog-link" style="display:block; margin-bottom:8px;">UNICEF Uganda &rarr;</a>
+            <a href="https://www.unicef.org/" target="_blank" class="blog-link" style="display:block; margin-bottom:8px;">UNICEF (Global) &rarr;</a>
+            <a href="https://www.end-violence.org/" target="_blank" class="blog-link" style="display:block; margin-bottom:8px;">Global Partnership to End Violence Against Children &rarr;</a>
+            <a href="https://childhelplineinternational.org/" target="_blank" class="blog-link" style="display:block;">Child Helpline International &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-card">
+      <span class="badge badge-gold">Stay Connected</span>
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Get monthly child protection articles, new resource releases, and upcoming webinar invites sent directly to your inbox.</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" id="newsEmail" name="email" placeholder="johndoe@example.com" required />
+        <button type="submit" class="btn btn-gold">Subscribe Now</button>
+        <div class="form-status" role="status" aria-live="polite" style="width:100%;"></div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand">
+        <h4>Safe Steps Training Services</h4>
+        <p>Building safer organizations, stronger families, and ethical leaders across Uganda.</p>
+        <p class="footer-follow-label">Follow Us</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/safestepstrainingservices" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@safestepstrainings" target="_blank" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Our Services</a>
+        <a href="games-books-puzzles.html">Games, Books &amp; Puzzles</a>
+        <a href="blog.html">Blog</a>
+        <a href="gallery.html">Gallery &amp; Impact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a href="library.html">Resource Hub</a>
+        <a href="shop.html">Shop</a>
+        <a href="portal.html">Member Portal</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p>P O Box 102525, Kampala, Uganda</p>
+        <p>+256 784 052 908<br>+256 759 464 634</p>
+        <p>Email: hildgracenalwanga@gmail.com</p>
+        <p>Opening Hours: Saturday, 9:00 am &ndash; 3:00 pm</p>
+        <p style="margin-top:10px;">MTN MoMo: 0784052908<br>Airtel Money: 0759464634</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <div class="copyright">&copy; 2026 Safe Steps Training Services. All rights reserved.</div>
+      <div class="footer-legal">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script src="js/forms.js"></script>
+  <script>
+    wireSafeStepsForm(document.getElementById('newsletterForm'), 'newsletter', {
+      successMessage: 'Thank you for subscribing! You have been added to our newsletter list.'
+    });
+  </script>
+</body>
+</html>

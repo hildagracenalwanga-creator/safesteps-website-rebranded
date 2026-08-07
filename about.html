@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safe Steps Training Services | About Us</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="images/Logo.png" type="image/png" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-main-bar">
+      <div class="container header-main">
+        <a href="index.html" class="logo-link">
+          <img src="images/Logo.png" alt="Safe Steps Training Services Logo" />
+          <div class="logo-text">
+            <span class="header-tagline">Strengthening Systems &middot; Shaping Futures</span>
+          </div>
+        </a>
+
+        <nav class="nav-desktop">
+          <a href="index.html">Home</a>
+          <a href="about.html" class="active">About Us</a>
+          <div class="nav-item-dropdown">
+            <a href="services.html">Our Services <span class="chevron">&#9662;</span></a>
+            <div class="dropdown-panel">
+              <a href="services.html">All Services</a>
+              <a href="child-safeguarding-training.html">Child Safeguarding Advocacy &amp; Training</a>
+              <a href="parent-coaching-support.html">Parent Coaching &amp; Support</a>
+              <a href="nurture-orbit.html">The Nurture Orbit Collection</a>
+              <a href="library.html" class="dropdown-divider">Resource Hub</a>
+            </div>
+          </div>
+          <a href="blog.html">Blog</a>
+        <a href="gallery.html">Gallery &amp; Impact</a>
+          <div class="nav-item-dropdown">
+            <a href="shop.html">Shop <span class="chevron">&#9662;</span></a>
+            <div class="dropdown-panel">
+              <a href="shop.html">All Products</a>
+              <a href="games-books-puzzles.html">Games, Books &amp; Puzzles</a>
+            </div>
+          </div>
+          <a href="portal.html">Member Portal</a>
+          <a href="contact.html">Contact</a>
+          <button class="nav-searchbar" onclick="openSearch()" aria-label="Search the site"><i
+              class="fa-solid fa-magnifying-glass"></i><span>Search the site...</span></button>
+          <a href="shop.html" class="nav-search-btn nav-cart-btn" aria-label="View Shop / Cart"><i
+              class="fa-solid fa-cart-shopping"></i></a>
+        </nav>
+
+        <button class="menu-btn" onclick="toggleHamburger()" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="nav-mobile" id="navMobile">
+      <button class="nav-mobile-search-btn" onclick="openSearch()"><i class="fa-solid fa-magnifying-glass"></i> Search
+        the site</button>
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About Us</a>
+      <a href="services.html">Our Services</a>
+      <a href="child-safeguarding-training.html" class="sub-link">Child Safeguarding Advocacy &amp; Training</a>
+      <a href="parent-coaching-support.html" class="sub-link">Parent Coaching &amp; Support</a>
+      <a href="nurture-orbit.html" class="sub-link">The Nurture Orbit Collection</a>
+      <a href="library.html" class="sub-link">Resource Hub</a>
+      <a href="blog.html">Blog</a>
+        <a href="gallery.html">Gallery &amp; Impact</a>
+      <a href="shop.html">Shop</a>
+      <a href="games-books-puzzles.html" class="sub-link">Games, Books &amp; Puzzles</a>
+      <a href="portal.html">Member Portal</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-box">
+      <div class="search-box-input-row">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="siteSearchInput" placeholder="Search the site... (e.g. parent coaching, blog, shop)"
+          autocomplete="off" />
+        <button class="search-box-close" onclick="closeSearch()" aria-label="Close search">&times;</button>
+      </div>
+      <div class="search-results" id="siteSearchResults"></div>
+    </div>
+  </div>
+
+  <div class="breadcrumb-bar d-none d-lg-block">
+    <div class="container">
+      <a href="index.html">Home</a>
+      <span class="crumb-sep">/</span>
+      <span class="crumb-current">About Us</span>
+    </div>
+  </div>
+
+
+  <main class="container">
+    <section class="hero-section">
+      <span class="badge badge-gold">About Us</span>
+      <h3>Welcome to Safe Steps Training Services</h3>
+      <p><strong>Safe Steps Training Services</strong> is a Ugandan consultancy dedicated to strengthening children,
+        families, organizations, schools, churches, NGOs, and businesses through integrated solutions in Child
+        Safeguarding, Parenting Excellence, and Leadership Development..</p>
+      <div class="btn-group">
+        <a href="#our-story" class="btn btn-gold">Read Our Story</a>
+        <a href="contact.html" class="btn btn-outline">Get in Touch</a>
+      </div>
+    </section>
+
+    <section id="our-story">
+      <div class="card">
+        <h2 class="section-title">Our Story</h2>
+        <p>What began as <strong>The Heart of a Child</strong>, a heartfelt initiative focused on raising awareness
+          about
+          child safety - has grown into a professional consultancy and mentorship platform. We are dedicated to
+          equipping parents, teachers, caregivers, children, and institutions with practical tools to build and sustain
+          safe, supportive environments where every child can thrive.</p>
+        <p>Rooted in values shaped by years of experience in social work, child safeguarding, and community engagement,
+          we provide tailored training programs, interactive workshops, policy development, and mentorship support. Our
+          work empowers individuals and organizations to recognize, prevent, and respond to child safety concerns with
+          clarity, compassion, and confidence.</p>
+        <p>While our values are inspired by biblical principles, <strong>Safe Steps Training Services</strong> is a
+          non-denominational consultancy that warmly welcomes and serves families and institutions from all faiths and
+          cultural backgrounds. We believe that safeguarding children is a shared responsibility - one that calls
+          for intentional action, unwavering integrity, and a heart for service.</p>
+        <blockquote>"Dear children, let us not love with words or speech but with actions and in truth." &ndash; 1 John
+          3:18 (NIV)</blockquote>
+        <p>Thank you for choosing to journey with us. Together, we can build stronger families, safer communities, and a
+          world where every child is seen, valued, and protected, allowing them to grow into their full potential and
+          God-given purpose.</p>
+        <p style="margin-top:16px;"><strong>With heartfelt commitment,</strong><br>Hilda Grace Nalwanga<br><span
+            class="text-muted">Founder and CEO, Safe Steps Training Services</span></p>
+
+
+        <div class="card" style="margin-top:30px;">
+          <h2 class="section-title">Our Mission</h2>
+          <p>To strengthen communities by delivering innovative safeguarding, leadership, and parenting solutions. We
+            empower organizations and families to build safety, integrity, and lasting resilience.</p>
+          <p class="text-muted" style="font-weight:600; color:var(--primary);">Every caregiver can be a safe place for a
+            child's heart to grow.</p>
+        </div>
+
+        <div class="card" style="margin-top:30px;">
+          <h2 class="section-title">Our Vision</h2>
+          <p>To become Africa's most trusted consultancy for safeguarding, leadership excellence,
+            and family development, creating generations of safe, ethical, and purpose-driven leaders.</p>
+        </div>
+
+
+        <div class="card" style="margin-top:30px;">
+          <h2 class="section-title">Our Core Values</h2>
+          <br>
+          <p> <strong>1. Integrity</strong> : We hold ourselves to the highest ethical and professional standards, ensuring transparency
+            in safeguarding and governance.
+            
+          <p> <strong>2. Compassion</strong> : We serve families and communities with deep empathy, dignity, and a heart for protecting the
+            vulnerable.</p>
+          <p> <strong>3. Excellence</strong> : We deliver world-class, practical solutions and constantly evolve our expertise to stay ahead of
+            global standards.</p>
+          <p> <strong>4. Collaboration</strong> : We partner intentionally with organizations, parents, and schools to co-create sustainable, safer
+            environments.</p>
+          <p> <strong>5. Innovation</strong> : We leverage digital learning and modern methodologies to make impactful training accessible
+            anywhere, anytime.</p>
+        </div>
+          <div class="card" style="margin-top:30px;">
+            <h2 class="section-title">Meet the Team</h2>
+            <div class="team-grid">
+              <div class="team-card">
+
+                <div class="team-photo-wrap">
+                  <img src="images/team/founder.jpg" alt="Hilda Grace Nalwanga, Founder" class="team-photo"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                  <div class="team-photo-placeholder">
+                    <i class="fa-solid fa-camera"></i>
+                    <span>Founder Photo<br><small>Add images/team/founder.jpg</small></span>
+                  </div>
+                </div>
+                <p class="team-role">Founder</p>
+                <p class="team-name">Hilda Grace Nalwanga</p>
+                <p class="team-title">Human Service Specialist | Children and Family</p>
+                <a href="https://www.linkedin.com/in/hilda-nalwanga-grace/" target="_blank" class="team-linkedin"><i
+                    class="fa-brands fa-linkedin"></i> Connect on LinkedIn</a>
+              </div>
+              <div class="team-card">
+
+                <div class="team-photo-wrap">
+                  <img src="images/team/cofounder.jpg" alt="Annah Mirembe, Co-Founder" class="team-photo"
+                    onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+                  <div class="team-photo-placeholder">
+                    <i class="fa-solid fa-camera"></i>
+                    <span>Co-Founder Photo<br><small>Add images/team/cofounder.jpg</small></span>
+                  </div>
+                </div>
+                <p class="team-role">Co-Founder</p>
+                <p class="team-name">Annah Mirembe</p>
+                <p class="team-title">HR and Safeguarding Designate Officer</p>
+              </div>
+            </div>
+          </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand">
+        <h4>Safe Steps Training Services</h4>
+        <p>Building safer organizations, stronger families, and ethical leaders across Uganda.</p>
+        <p class="footer-follow-label">Follow Us</p>
+        <div class="footer-social">
+          <a href="https://www.instagram.com/safestepstrainingservices" target="_blank" aria-label="Instagram"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@safestepstrainings" target="_blank" aria-label="TikTok"><i
+              class="fa-brands fa-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Our Services</a>
+        <a href="games-books-puzzles.html">Games, Books &amp; Puzzles</a>
+        <a href="blog.html">Blog</a>
+        <a href="gallery.html">Gallery &amp; Impact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a href="library.html">Resource Hub</a>
+        <a href="shop.html">Shop</a>
+        <a href="portal.html">Member Portal</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact Us</h4>
+        <p>P O Box 102525, Kampala, Uganda</p>
+        <p>+256 784 052 908<br>+256 759 464 634</p>
+        <p>Email: hildgracenalwanga@gmail.com</p>
+        <p>Opening Hours: Saturday, 9:00 am &ndash; 3:00 pm</p>
+        <p style="margin-top:10px;">MTN MoMo: 0784052908<br>Airtel Money: 0759464634</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <div class="copyright">&copy; 2026 Safe Steps Training Services. All rights reserved.</div>
+      <div class="footer-legal">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
